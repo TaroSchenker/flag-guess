@@ -91,7 +91,7 @@ shuffle(answerArray)
   <Card.Text className="text-center"> <h9>High-Score: {highScore} </h9></Card.Text>
   <Card.Img style={{border: '5px solid'}} variant="top" src={flag} />
   <Card.Body>
-    <Card.Title style={{border: '2px solid'}} className="text-center">How many  flags can you correctly guess in a row?</Card.Title>
+    <Card.Title className="text-center">How many  flags can you  guess in a row?</Card.Title>
     <div class="text-center">
 
     {wrongGuess &&
