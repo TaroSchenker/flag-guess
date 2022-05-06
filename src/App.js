@@ -86,7 +86,7 @@ shuffle(answerArray)
    }} >  
   <Row>
   <Col>
-  <Card border="primary" style={{ width: '25rem' }}>
+  <Card border="primary" style={{ width: '20rem' }}>
   <Card.Header className="text-center"><h4>Country Flag Guesser</h4></Card.Header>
   <Card.Text className="text-center"> <h9>High-Score: {highScore} </h9></Card.Text>
   <Card.Img style={{border: '5px solid'}} variant="top" src={flag} />
