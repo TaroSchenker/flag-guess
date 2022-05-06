@@ -79,25 +79,10 @@ shuffle(answerArray)
   return (
     <Container style={{
 
-      minWidth: '100%', 
-      border: '1px solid ',
-      margin: 'auto', 
-      backgroundColor: "DodgerBlue",
-      position:'absolute',
-      top:'0px',
-      right:'0px',
-      bottom:'0px',
-      left:'0px',
       }}>
       
   <Container style={{    
-   width: '30rem',
-   height: '30rem',
-   position: 'absolute',
-   top: '40%',
-   left: '50%',
-   marginLeft: '-15rem',
-   marginTop: '-15rem',
+
    }} >  
   <Row>
   <Col>
