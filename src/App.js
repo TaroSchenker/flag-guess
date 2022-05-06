@@ -122,7 +122,7 @@ shuffle(answerArray)
     
         }
         }) && <Alert className='text-center' key={'warning'} variant={'warning'}>
-      Wrong answer, click start again!
+      Wrong! Correct answer is {flagCountry}!
     </Alert>} 
 
     <Card.Body className='text-center'>
