@@ -26,7 +26,7 @@ function shuffle(array) {
 }
 
 
-shuffle(answerArray)
+
 
 async function getCountryData(){
   console.log('orig', answerArray)
