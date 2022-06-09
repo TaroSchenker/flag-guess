@@ -77,17 +77,18 @@ shuffle(answerArray)
 
 
   return (
-    <Container style={{
-
-      }}>
+    <Container style=
+    {{
+      margin:0, padding:0
+    }}>
       
-  <Container style={{    
+  {/* <Container style={{    
 
-   }} >  
+   }} >   */}
   <Row>
   <Col>
-  <Card border="primary" style={{ width: '20rem' }}>
-  <Card.Header className="text-center"><h4>Country Flag Guesser</h4></Card.Header>
+  <Card border="dark" style={{ width: '20rem' }}>
+  <Card.Header className="text-center" ><h4>Country Flag Guesser</h4></Card.Header>
   <Card.Text className="text-center"> <h9>High-Score: {highScore} </h9></Card.Text>
   <Card.Img style={{border: '5px solid'}} variant="top" src={flag} />
   <Card.Body>
@@ -134,12 +135,12 @@ shuffle(answerArray)
   </Card.Body>
 </Card>
  </Col>
+
+ 
   </Row>
 
   </Container>
-
-
-  </Container>
+  // </Container>
   );
 }
 
